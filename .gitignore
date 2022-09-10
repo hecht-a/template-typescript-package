@@ -3,3 +3,4 @@ lib
 *.cache
 .npmrc
 .idea
+*.log

@@ -4,14 +4,14 @@ import {terser} from "rollup-plugin-terser";
 import typescript from "@rollup/plugin-typescript";
 
 export default {
-    input: resolve("src", "Validator.ts"),
+    input: resolve("src", "index.ts"),
     plugins: [
         remove({targets: resolve("lib", "*")}),
         typescript(),
         terser()
     ],
     output: {
-        file: resolve("lib", "Validator.js"),
+        file: resolve("lib", "index.js"),
         format: "cjs"
     }
 }

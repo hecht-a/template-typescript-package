@@ -1,7 +1,7 @@
 {
   "extends": "./tsconfig.json",
   "files": [
-    "src/Validator.ts"
+    "src/index.ts"
   ],
   "compilerOptions": {
     "declaration": true,
